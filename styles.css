@@ -1,0 +1,15 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#vertCenter {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+
+}
