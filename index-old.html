@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Eric Johnson Space Administration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+
+
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="#" alt="EJSA logo" class="navbar-brand" />
+      <span class="Live"><span class="icon primitive-dot"></span> LIVE NOW! </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a href="#" class="nav-link"> Contact</a> </li>
+          <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Kerbal </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a href="#" class="dropdown-item"> Mission Log </a>
+              <a href="#" class="dropdown-item"> Acronyms </a>
+              <a href="#" class="dropdown-item"> Craft files </a>
+              <a href="#" class="dropdown-item"> Resources </a>
+            </div>
+          </li>
+          <li> <a href="#" class="nav-link"> Other </a> </li>
+          <li> <a href="#" class="nav-link"> Other </a> </li>
+      </div>
+
+    </nav>
+
+    <!-- Twitch Embed -->
+    <div id="twitch-embed" style="margin-bottom:2%"></div>
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: "100%",
+        height: 480,
+        channel: "EJ_SA"
+      });
+    </script>
+    <!-- Twitch Embed End -->
+
+
+
+    <div class="container-fluid mb-3">
+      <div class="row">
+        <div class="col-md-3 col-sm">
+          <img class=" mb-0 rounded-circle" src="EJ.jpg" alt="EJ_SA's Picture" />
+        </div>
+        <div class="col-md-6 col-sm" id="vertCenter">
+          <p class="align-middle" id="EJ_SA_About" style=""> Hello Flight Controllers! I am EJ and I have been streaming since Jan '13. I play Kerbal Space Program the most, but have been known to play other games during our After Hours Segment from 11PM-2AM.
+          </p>
+
+        </div>
+
+
+
+
+        <div class="col ">
+          <aside id="schedule">
+            Stream Schedule
+            <ul>
+              <li> Monday 4PM-2AM EST </li>
+              <li> Wednesday 4PM-2AM EST</li>
+              <li> Thursday 4PM-2AM EST</li>
+              <li> Friday 4PM-2AM EST </li>
+              <li> Saturday 4PM-2AM EST</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer class="container-fluid pt-4 pb-4">
+
+    <div class="row">
+      <div class="col-md-9">
+        <a href="#"> Contact</a>
+        <a href="#"> Kerbal </a>
+        <a href="#"> Other </a>
+        <a href="#"> Other </a>
+        <a href="#"> Mission Log </a>
+        <a href="#"> Acronyms </a>
+        <a href="#"> Craft files </a>
+        <a href="#"> Resources </a>
+      </div>
+      <div class="col-md-3">
+        <img src="#">
+        <img src="#">
+        <img src="#">
+          <img src="#">
+
+      </div>
+
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</html>
